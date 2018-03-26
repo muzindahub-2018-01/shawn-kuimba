@@ -1,0 +1,121 @@
+ /* Type Selectors*/
+ body{
+ 	color: #878787;
+ 	margin: 0;
+
+}
+header span{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+h1{
+	font-size: 72px;
+	color: white;
+	font-weight: bold;
+
+}
+h2{
+	font-size:60px;
+	line-height: 1.2;
+}
+h3{
+	font-size: 50px;
+}
+h4{
+	font-size: 40px;
+}
+p{
+	font-size: 20px;
+}
+
+/* ID Selectors*/
+.main-footer{
+	padding-top: 60px;
+	padding-bottom:60px;
+	border-bottom:solid 10px lightblue;
+  background-image: url(../img/digital.jpg);
+  background-size: cover;
+  margin: 6px;
+  text-align: center;
+	
+}
+
+/* Main Styles */
+
+.main-header{
+	background-color: skyblue;
+	padding-top: 170px;
+	height: 450px;
+	background-image: url('../img/main.jpg'); 
+	background-position: center;
+	text-align: center;
+
+}
+.main-header,
+.main-footer,
+.primary-content{
+	text-align: center;
+}
+.primary-content{
+	padding-top:80px; 
+	padding-bottom:70px;
+	border:2px solid #dfe2e6;
+	overflow: auto;
+}
+.secondary-content{
+	padding-top:80px; 
+	padding-bottom:70px;
+	border:2px solid #dfe2e6;
+	overflow: auto;
+	
+}
+
+
+/*Class Selector*/
+ul li{
+	margin-bottom: 5px;
+}
+/* Pesudo Classes*/
+a:link{
+	color: red;
+}
+a:visited{
+	color: orange;
+}
+a:hover{
+	color: forestgreen;
+}
+a:active{
+	color: lightcoral;
+}
+/* Layout Styles*/
+.primary-content,
+.secondary-content{
+	width: 960px;
+	margin: auto;
+}
+
+/* Floated Columns*/
+.awareness,
+.equity {
+	width: 46.5%;
+}
+.equity{
+	float: right;
+}
+.awareness{
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
